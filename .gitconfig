@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = laxmigrg4488
+	email = 142139894+laxmigrg4488@users.noreply.github.com
+[gui]
+	recentrepo = C:/Users/ASUS/starting
